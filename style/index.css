@@ -1,0 +1,369 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+/*轮播图*/
+#Broadcast{
+	background: red;
+	width: 100%;
+	/*height: 640px;*/
+	height: 69%;
+	position: relative;
+}
+.img{
+	width: 100%;
+	height: 100%;
+}
+#ul1{
+	width: 114px;
+	height: 395px;   
+	list-style-type:none;
+	margin-top: -182.5px;  
+	position: absolute;
+	top: 50%;
+	right: 8%;
+}
+#ul1 img{
+	margin-top: 6px;
+	width: 108px; 
+	height: 67px;
+}
+/*导航栏*/
+#title{
+	width: 600px;
+	height: 100px;
+	/*background: #ddd;*/
+	position: absolute;
+	top: 0px;
+	left: 120px;
+}
+#title ul li a{
+/*	background: red;*/
+	display: inline-block;
+	/*width: 50px;*/
+	height: 55px;
+	display: block;
+	float: left;
+	text-align: center;
+	font:500 22px/55px 黑体;
+	color: #fff;
+	margin-left: 20px;
+
+}
+#title a:hover{
+	font:500 22px/46px 黑体;
+	border-top: 4px solid #fff;
+}
+/*#border{
+	width: 50px;
+	height: 4px;
+	background: #fff;
+	position: absolute;
+	top: 0px;
+	left: 145px;
+}*/
+/*logo*/
+#logo{
+	width: 90px;
+	position: absolute;
+	top: -8px;
+	left: 2%;
+}
+/*热门推荐*/
+#Hot{
+	width: 100%;
+}
+#Hot h1{
+	margin-top: 50px;
+	text-align: center;
+}
+
+#Hots{
+	margin: 30px auto;
+	width: 1200px;
+	height: 750px;
+	/*background: blue;*/
+}
+#Hots a{
+	display: block;
+	width: 275px;
+	height: 185px;
+	overflow: hidden;
+}
+#Hots img{
+	width: 275px;
+	height: 185px;
+	transition : -webkit-transform 1s;
+}
+#Hots img:hover{
+	 transform: scale(1.2,1.2);/*放大的倍数(宽,高)  */ 
+}
+#Hots li{
+	width: 275px;
+	height: 320px;
+/*	background: yellow;*/
+	float: left;
+	margin-right: 10px;
+	margin-left: 13.9px;
+	margin-bottom: 25px;
+	text-align: center;
+	position: relative;
+	border: 0.5px solid #ddd;
+}
+#Hots h2{
+	text-align: left;
+	width: 220px;
+	margin: 20px auto;
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 600;
+	font-family: 微软雅黑;
+	color: #444;
+}
+#green{
+	width: 275px;
+	height: 2px;
+	background: #11B042;
+}
+#Hots h3{
+	color: #000;
+	font-weight: 500;
+	font-size: 15.4px;
+	margin-top: 20px;
+}
+#Hots h4{
+	color: #959595;
+	font-weight: 100;
+	font-size: 14px;
+	margin-top: 13px;
+	margin-bottom: 35px;
+}
+#Hots p{
+	color: #959595;
+	font-weight: 500;
+	font-size: 15.4px;
+	margin-top: 20px;
+}
+#Hots a{
+	color: #409F60;
+}
+#Hots .span1{
+	font:600 15px/15px 微软雅黑;
+	color: #888;
+	position: absolute;
+	bottom: 25px;
+	left: 31px	;
+}
+#Hots .span2{
+	font:600 15px/15px 微软雅黑;
+	font-weight: 500px;
+	color: #666;
+	position: absolute;
+	bottom: 25px;
+	right: 20px;
+}
+#Hots #a1{
+	font: 700 16px/40px 黑体;
+	color: #fff;
+	display: block;
+	width: 235px;
+	height: 40px;
+	margin: 0 auto;
+	background: #11B042;
+	border-radius: 3px;
+}
+#Hots #a1:hover{
+	background: #409F60;
+}
+/*打折区*/
+#dazhe{
+	width: 100%;
+	height: 700px;
+	background: linear-gradient(180deg,#6dd27c,#1bcdae);
+}
+#dazhe h1{
+	color: #fff;
+	text-align: center;
+	line-height: 150px;
+	font-family: 黑体;
+	font-size: 47px;
+}
+#ho{
+	width: 1400px;
+	height: 470px;
+	margin: 0 auto;
+	/*background: #fff;*/
+	position: relative;
+	/*overflow: hidden;*/
+}
+.a1{
+	width: 50px;
+	height: 7px;
+	display: block;
+	position: absolute;
+	left: 560px;
+	bottom: -35px;
+	/*background: #fff;*/
+	border: 2px solid #fff;
+}
+.a1:hover{
+	background: #fff;
+}
+.a2{
+	width: 50px;
+	height: 7px;
+	display: block;
+	position: absolute;
+	left: 620px;
+	bottom: -35px;
+	border: 2px solid #fff;
+}
+.a2:hover{
+	background: #fff;
+}
+.a3{
+	width: 50px;
+	height: 7px;
+	display: block;
+	position: absolute;
+	bottom: -35px;
+	left: 680px;
+	border: 2px solid #fff;
+}
+.a3:hover{
+	background: #fff;
+}
+.a4{
+	width: 50px;
+	height: 7px;
+	display: block;
+	position: absolute;
+	bottom: -35px;
+	left: 740px;
+	border: 2px solid #fff;
+}
+.a4:hover{
+	background: #fff;
+}
+.a5{
+	width: 50px;
+	height: 7px;
+	display: block;
+	position: absolute;
+	bottom: -35px;
+	left: 800px;
+	border: 2px solid #fff;
+}
+.a5:hover{
+	background: #fff;
+}
+#hov:hover #hover{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 35px;
+}
+/*#hov:hover #hover{
+	display: block;
+}*/
+#hover{
+	width: 1320px;
+	height: 470px;
+	/*background: red;*/
+	/*margin: 0 auto;*/
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 35px;
+}
+#hover li{
+	width: 371px;
+	height: 162px;
+	background: #ddd;
+	float: left;
+	margin-left: 50px;
+	margin-top: 35px;
+}
+
+#wx{
+	width: 100%;
+	height: 200px;
+	background: #fff;
+}
+
+
+
+
+
+
+#my{
+	border-top: 4px solid #26AA52;
+	width: 100%;
+	height: 300px;
+	background: #323232;
+	position: relative;
+	font: 18px/18px 微软雅黑;
+	text-align: center;
+}
+.my1{
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 60px;
+	left: 280px;
+}
+.my2{
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 60px;
+	left: 410px;
+}
+.my3{
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 60px;
+	left: 530px;  
+}
+.my4{
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 60px;
+	left: 650px;
+}
+#my1{
+	display: block;
+	width: 90px;
+	height: 22px;
+	color: #ccc;
+	border-left: 3px solid #31B85C;
+	position: absolute;
+	/*top: 60px;
+	left: 590px;*/
+}
+#my2{
+	position: absolute;
+	top: 30px;
+	left: 11px;
+}
+#my2 a{
+	color: #666;
+}
+#my2 a:hover{
+	color: #999;
+}
+#my2 li{
+	margin-top: 15px;
+}
+
